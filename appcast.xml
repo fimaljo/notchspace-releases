@@ -1,11 +1,19 @@
-<item>
-  <title>Version 0.9.0</title>
-  <pubDate>Wed, 21 Apr 2026 10:00:00 +0000</pubDate>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>NotchSpace Updates</title>
 
-  <enclosure
-    url="https://github.com/fimaljo/notchspace-releases/releases/download/v0.9.0/NotchSpace.dmg"
-    sparkle:version="1"
-    sparkle:shortVersionString="0.9.0"
-    length="2828458"
-    type="application/octet-stream"/>
-</item>
+    <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Wed, 21 Apr 2026 10:00:00 +0000</pubDate>
+
+      <enclosure
+        url="https://github.com/fimaljo/notchspace-releases/releases/download/v0.9.0/NotchSpace.dmg"
+        sparkle:version="1"
+        sparkle:shortVersionString="0.9.0"
+        length="2828458"
+        type="application/octet-stream"/>
+    </item>
+
+  </channel>
+</rss>
