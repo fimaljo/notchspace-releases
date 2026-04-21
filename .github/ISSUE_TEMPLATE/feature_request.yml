@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest an improvement for NotchSpace
+title: "[Feature] "
+labels: ["enhancement"]
+
+body:
+
+* type: input
+  id: title
+  attributes:
+  label: Title
+  placeholder: Short, clear feature idea
+  validations:
+  required: true
+
+* type: textarea
+  id: problem
+  attributes:
+  label: Problem
+  description: What problem are you trying to solve?
+  validations:
+  required: true
+
+* type: textarea
+  id: solution
+  attributes:
+  label: Expected behavior
+  description: Describe the solution or feature
+  validations:
+  required: true
+
+* type: textarea
+  id: context
+  attributes:
+  label: Additional context
+  description: Mockups, examples, references (optional)
+
+* type: checkboxes
+  id: agreements
+  attributes:
+  label: Agreements
+  options:
+  - label: I searched existing feature requests
+  required: true
+  - label: This is not a usage / how-to question
+  required: true
+  - label: This is not a license or refund issue
+  required: true
