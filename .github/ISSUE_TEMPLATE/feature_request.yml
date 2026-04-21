@@ -1,48 +1,37 @@
-name: Feature Request
-description: Suggest an improvement for NotchSpace
-title: "[Feature] "
-labels: ["enhancement"]
-
+name: Feature request
+description: Request an enhancement for NotchSpace
+labels: [enhancement]
 body:
 
-* type: input
-  id: title
-  attributes:
-  label: Title
-  placeholder: Short, clear feature idea
-  validations:
-  required: true
+  - type: textarea
+    attributes:
+      label: "Problem"
+      description: "Describe the problem to be solved."
+      placeholder: "No oranges available. Oranges are important because..."
+    validations:
+      required: true
 
-* type: textarea
-  id: problem
-  attributes:
-  label: Problem
-  description: What problem are you trying to solve?
-  validations:
-  required: true
+  - type: textarea
+    attributes:
+      label: "Expected behavior"
+      description: "Describe what the new feature or behavior would look like. How does it solve the problem?"
+    validations:
+      required: true
 
-* type: textarea
-  id: solution
-  attributes:
-  label: Expected behavior
-  description: Describe the solution or feature
-  validations:
-  required: true
-
-* type: textarea
-  id: context
-  attributes:
-  label: Additional context
-  description: Mockups, examples, references (optional)
-
-* type: checkboxes
-  id: agreements
-  attributes:
-  label: Agreements
-  options:
-  - label: I searched existing feature requests
-  required: true
-  - label: This is not a usage / how-to question
-  required: true
-  - label: This is not a license or refund issue
-  required: true
+  - type: checkboxes
+    attributes:
+      label: "Agreements"
+      description: "Check the following before submitting the feature request."
+      options:
+        - label: "My title is concise but descriptive and specific."
+          required: true
+        - label: "I am on the latest NotchSpace release."
+          required: true
+        - label: "I have searched for [existing feature requests](https://github.com/fimlajo/notchspace-releases/issues?q=is:issue%20label:enhancement%20)."
+          required: true
+        - label: "I have read the [FAQ](https://fofint.com/products/notchspace)."
+          required: true
+        - label: "This is not a usage or 'How to' question."
+          required: true
+        - label: "This is not an \"I didn't receive my license\" or an \"I want a refund\" issue."
+          required: true
