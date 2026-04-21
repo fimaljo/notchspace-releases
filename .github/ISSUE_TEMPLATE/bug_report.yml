@@ -1,87 +1,87 @@
-name: Bug Report
-description: Report a problem in NotchSpace
+name: Bug report
+description: Report a problem in Alcove
 labels: [bug]
-
 body:
 
-* type: textarea
-  attributes:
-  label: "Problem"
-  description: "Describe the current behavior. This may include crash logs, images, or videos."
-  validations:
-  required: true
+  - type: textarea
+    attributes:
+      label: "Problem"
+      description: "Describe the current behavior. This may include crash logs, images, or videos."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce"
+      description: "List the steps to reproduce the problem."
+      placeholder: |
+        Open Alcove
+        Enable do not disturb focus mode
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected behavior"
+      description: "Describe the behavior you expect."
+    validations:
+      required: true
 
-* type: textarea
-  attributes:
-  label: "Steps to reproduce"
-  description: "List the steps to reproduce the problem."
-  placeholder: |
-  Open NotchSpace
-  Click ...
-  Issue occurs
-  validations:
-  required: true
+  - type: input
+    attributes:
+      label: "Menu bar/display affecting apps"
+      description: "Are there any menubar/display affecting apps? (e.g. Bartender, Ice, BetterDisplay) If so, list them."
+      placeholder: "Bartender"
+    validations:
+      required: false
 
-* type: textarea
-  attributes:
-  label: "Expected behavior"
-  description: "Describe the behavior you expect."
-  validations:
-  required: true
+  - type: input
+    attributes:
+      label: "Alcove version"
+      description: |
+        1.  Right click the Alcove notch
+        2.  Click Settings
+        3.  Click on "Alcove" on the left side of the macOS menu bar
+        4.  Click "About Alcove"
+      placeholder: "1.1.0 (12)"
+    validations:
+      required: true
 
-* type: input
-  attributes:
-  label: "Menu bar/display affecting apps"
-  description: "Apps like Bartender, Ice, BetterDisplay, etc."
-  placeholder: "Bartender"
-  validations:
-  required: false
+  - type: input
+    attributes:
+      label: "Mac/MacBook model"
+      placeholder: "MacBook Air M2"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "macOS version"
+      placeholder: "15.2"
+    validations:
+      required: true
 
-* type: input
-  attributes:
-  label: "NotchSpace version"
-  description: |
-  1. Open NotchSpace
-  2. Go to Settings
-  3. Click "About"
-  placeholder: "1.0.0 (12)"
-  validations:
-  required: true
+  - type: checkboxes
+    attributes:
+      label: "macOS Beta"
+      description: "Are you currently on the beta version of macOS?"
+      options:
+        - label: "Yes"
+          required: false
 
-* type: input
-  attributes:
-  label: "Mac/MacBook model"
-  placeholder: "MacBook Air M2"
-  validations:
-  required: true
-
-* type: input
-  attributes:
-  label: "macOS version"
-  placeholder: "macOS 14.5"
-  validations:
-  required: true
-
-* type: checkboxes
-  attributes:
-  label: "macOS Beta"
-  description: "Are you currently using a macOS beta?"
-  options:
-  - label: "Yes"
-  required: false
-
-* type: checkboxes
-  attributes:
-  label: "Agreements"
-  description: "Check the following before submitting."
-  options:
-  - label: "My title is clear and specific."
-  required: true
-  - label: "I am using the latest version."
-  required: true
-  - label: "I searched existing issues."
-  required: true
-  - label: "This is not a usage or how-to question."
-  required: true
-  - label: "This is not a license or refund issue."
-  required: true
+  - type: checkboxes
+    attributes:
+      label: "Agreements"
+      description: "Check the following before submitting the bug report."
+      options:
+        - label: "My title is concise but descriptive and specific."
+          required: true
+        - label: "I am on the latest Alcove release."
+          required: true
+        - label: "I have searched for [existing bug reports](https://github.com/henrikruscon/alcove-releases/issues?q=is%3Aissue+label%3Abug)."
+          required: true
+        - label: "I have read the [FAQ](https://tryalcove.com/faqs)."
+          required: true
+        - label: "This is not a usage or 'How to' question."
+          required: true
+        - label: "This is not an \"I didn't receive my license\" or an \"I want a refund\" issue."
+          required: true
+        - label: "I have made sure that my issue is not a duplicate of the pinned issues."
+          required: true
