@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a problem in Alcove
+description: Report a problem in NotchSpace
 labels: [bug]
 body:
 
@@ -14,7 +14,7 @@ body:
       label: "Steps to reproduce"
       description: "List the steps to reproduce the problem."
       placeholder: |
-        Open Alcove
+        Open NotchSpace
         Enable do not disturb focus mode
     validations:
       required: true
@@ -35,12 +35,12 @@ body:
 
   - type: input
     attributes:
-      label: "Alcove version"
+      label: "NotchSpace version"
       description: |
         1.  Right click the Alcove notch
         2.  Click Settings
-        3.  Click on "Alcove" on the left side of the macOS menu bar
-        4.  Click "About Alcove"
+        3.  Click on "NotchSpace" on the left side of the macOS menu bar
+        4.  Click "About NotchSpace"
       placeholder: "1.1.0 (12)"
     validations:
       required: true
