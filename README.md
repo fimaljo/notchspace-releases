@@ -41,7 +41,7 @@ This repository hosts:
 
 If you encounter an issue or have an idea, please create an issue:
 
-👉 https://github.com/YOUR_USERNAME/notchspace-releases/issues/new/choose
+👉 https://github.com/fimaljo/notchspace-releases/issues/new/choose
 
 We actively review:
 
@@ -65,23 +65,6 @@ For general questions or help:
 All release notes are maintained here:
 
 👉 See [CHANGELOG.md](./CHANGELOG.md)
-
----
-
-## 🔒 License & Distribution
-
-NotchSpace is a **commercial product**.
-
-* You may download and use the app according to your license
-* Redistribution or reverse engineering is not permitted
-
----
-
-## 🌐 Future Plans
-
-* License validation system
-* Cloud sync (planned)
-* Community-driven feature improvements
 
 ---
 
