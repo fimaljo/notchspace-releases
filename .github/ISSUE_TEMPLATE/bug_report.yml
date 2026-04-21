@@ -1,97 +1,87 @@
 name: Bug Report
-description: Report a problem in NotchSpace.
-title: "[Bug] "
-labels: ["bug"]
+description: Report a problem in NotchSpace
+labels: [bug]
 
 body:
 
-* type: input
-  id: title
+* type: textarea
   attributes:
-  label: Title
-  placeholder: Short, clear description of the issue
+  label: "Problem"
+  description: "Describe the current behavior. This may include crash logs, images, or videos."
   validations:
   required: true
 
 * type: textarea
-  id: problem
   attributes:
-  label: Problem
-  description: Describe the current behavior. Include logs, screenshots, or videos if possible.
-  validations:
-  required: true
-
-* type: textarea
-  id: steps
-  attributes:
-  label: Steps to reproduce
+  label: "Steps to reproduce"
+  description: "List the steps to reproduce the problem."
   placeholder: |
+  Open NotchSpace
+  Click ...
+  Issue occurs
+  validations:
+  required: true
+
+* type: textarea
+  attributes:
+  label: "Expected behavior"
+  description: "Describe the behavior you expect."
+  validations:
+  required: true
+
+* type: input
+  attributes:
+  label: "Menu bar/display affecting apps"
+  description: "Apps like Bartender, Ice, BetterDisplay, etc."
+  placeholder: "Bartender"
+  validations:
+  required: false
+
+* type: input
+  attributes:
+  label: "NotchSpace version"
+  description: |
   1. Open NotchSpace
-  2. Click ...
-  3. Issue occurs
-  validations:
-  required: true
-
-* type: textarea
-  id: expected
-  attributes:
-  label: Expected behavior
-  description: What should have happened?
+  2. Go to Settings
+  3. Click "About"
+  placeholder: "1.0.0 (12)"
   validations:
   required: true
 
 * type: input
-  id: version
   attributes:
-  label: NotchSpace version
-  placeholder: e.g. 1.0.0 (12)
+  label: "Mac/MacBook model"
+  placeholder: "MacBook Air M2"
   validations:
   required: true
 
 * type: input
-  id: mac_model
   attributes:
-  label: Mac / MacBook model
-  placeholder: e.g. MacBook Air M2
+  label: "macOS version"
+  placeholder: "macOS 14.5"
   validations:
   required: true
-
-* type: input
-  id: macos
-  attributes:
-  label: macOS version
-  placeholder: e.g. macOS 14.5
-  validations:
-  required: true
-
-* type: dropdown
-  id: beta
-  attributes:
-  label: macOS Beta
-  options:
-  - "No"
-  - "Yes"
-  validations:
-  required: true
-
-* type: textarea
-  id: apps
-  attributes:
-  label: Menu bar / display affecting apps
-  description: List apps like Bartender, BetterDisplay, etc (if any)
 
 * type: checkboxes
-  id: agreements
   attributes:
-  label: Agreements
+  label: "macOS Beta"
+  description: "Are you currently using a macOS beta?"
   options:
-  - label: My title is clear and specific
+  - label: "Yes"
+  required: false
+
+* type: checkboxes
+  attributes:
+  label: "Agreements"
+  description: "Check the following before submitting."
+  options:
+  - label: "My title is clear and specific."
   required: true
-  - label: I am using the latest version
+  - label: "I am using the latest version."
   required: true
-  - label: I searched existing issues
+  - label: "I searched existing issues."
   required: true
-  - label: This is not a usage / how-to question
+  - label: "This is not a usage or how-to question."
   required: true
-  - label: This is not a license or refund issue
+  - label: "This is not a license or refund issue."
   required: true
