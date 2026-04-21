@@ -1,0 +1,97 @@
+name: Bug Report
+description: Report a problem in NotchSpace
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+
+* type: input
+  id: title
+  attributes:
+  label: Title
+  placeholder: Short, clear description of the issue
+  validations:
+  required: true
+
+* type: textarea
+  id: problem
+  attributes:
+  label: Problem
+  description: Describe the current behavior. Include logs, screenshots, or videos if possible.
+  validations:
+  required: true
+
+* type: textarea
+  id: steps
+  attributes:
+  label: Steps to reproduce
+  placeholder: |
+  1. Open NotchSpace
+  2. Click ...
+  3. Issue occurs
+  validations:
+  required: true
+
+* type: textarea
+  id: expected
+  attributes:
+  label: Expected behavior
+  description: What should have happened?
+  validations:
+  required: true
+
+* type: input
+  id: version
+  attributes:
+  label: NotchSpace version
+  placeholder: e.g. 1.0.0 (12)
+  validations:
+  required: true
+
+* type: input
+  id: mac_model
+  attributes:
+  label: Mac / MacBook model
+  placeholder: e.g. MacBook Air M2
+  validations:
+  required: true
+
+* type: input
+  id: macos
+  attributes:
+  label: macOS version
+  placeholder: e.g. macOS 14.5
+  validations:
+  required: true
+
+* type: dropdown
+  id: beta
+  attributes:
+  label: macOS Beta
+  options:
+  - "No"
+  - "Yes"
+  validations:
+  required: true
+
+* type: textarea
+  id: apps
+  attributes:
+  label: Menu bar / display affecting apps
+  description: List apps like Bartender, BetterDisplay, etc (if any)
+
+* type: checkboxes
+  id: agreements
+  attributes:
+  label: Agreements
+  options:
+  - label: My title is clear and specific
+  required: true
+  - label: I am using the latest version
+  required: true
+  - label: I searched existing issues
+  required: true
+  - label: This is not a usage / how-to question
+  required: true
+  - label: This is not a license or refund issue
+  required: true
