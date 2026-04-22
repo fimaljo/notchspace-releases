@@ -9,7 +9,7 @@
 
       <enclosure
         url="https://github.com/fimaljo/notchspace-releases/releases/download/v0.9.0/NotchSpace.dmg"
-        sparkle:version="1"
+        sparkle:version="2"
         sparkle:shortVersionString="0.9.0"
         length="2828458"
         type="application/octet-stream"/>
