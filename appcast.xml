@@ -4,13 +4,13 @@
     <title>NotchSpace Updates</title>
 
     <item>
-      <title>Version 0.9.0</title>
-      <pubDate>Wed, 21 Apr 2026 10:00:00 +0000</pubDate>
+      <title>Version 1.0.0</title>
+      <pubDate>Fri, 23 Apr 2026 10:00:00 +0000</pubDate>
 
       <enclosure
-        url="https://github.com/fimaljo/notchspace-releases/releases/download/v0.9.0/NotchSpace.dmg"
+        url="https://github.com/fimaljo/notchspace-releases/releases/download/v1.0.0/NotchSpace.dmg"
         sparkle:version="2"
-        sparkle:shortVersionString="0.9.0"
+        sparkle:shortVersionString="1.0.0"
         length="2828458"
         type="application/octet-stream"/>
     </item>
