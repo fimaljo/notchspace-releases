@@ -11,6 +11,7 @@
         url="https://github.com/fimaljo/notchspace-releases/releases/download/v1.0.0/NotchSpace.dmg"
         sparkle:version="2"
         sparkle:shortVersionString="1.0.0"
+        sparkle:edSignature="FN5JO9/ApvQccukwpDBOvoTKPD1ctDWgOQpDifH2WVdtZWBjQ7oY+eRaV3ZNTeOADrEANEONZtUx58SCvTFICQ=="
         length="2828458"
         type="application/octet-stream"/>
     </item>
