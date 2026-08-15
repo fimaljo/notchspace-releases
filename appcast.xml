@@ -4,15 +4,15 @@
     <title>NotchSpace Updates</title>
 
     <item>
-      <title>Version 1.1.2</title>
-      <pubDate>Sat, 8 Aug 2026 10:00:00 +0000</pubDate>
+      <title>Version 1.1.3</title>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0000</pubDate>
 
       <enclosure
-        url="https://github.com/fimaljo/notchspace-releases/releases/download/v1.1.2/NotchSpace.dmg"
-        sparkle:version="12"
-        sparkle:shortVersionString="1.1.2"
-        sparkle:edSignature="z161bsrWASC6fqeQgKMMKSr/y5NavN+fRsfAqHemAh7nSui8Ki8tk2m20s7bLwfK0jgfOAfI95Ec7IUgz2jBDQ=="
-        length="15183037"
+        url="https://github.com/fimaljo/notchspace-releases/releases/download/v1.1.3/NotchSpace.dmg"
+        sparkle:version="13"
+        sparkle:shortVersionString="1.1.3"
+        sparkle:edSignature="fS7z5fYboyRKZVXyoR8X7GJalrl76GbBAYac5ORC2Z5N9rr49Txh2CjZAEMkWZHD6d/IbRzHUJmTxjE8BRDoBA=="
+        length="15353818"
         type="application/octet-stream"/>
     </item>
 
