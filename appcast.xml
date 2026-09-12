@@ -16,18 +16,5 @@
         type="application/octet-stream"/>
     </item>
 
-    <item>
-      <title>Version 1.1.8</title>
-      <pubDate>Sat, 12 Sep 2026 05:45:00 +0000</pubDate>
-
-      <enclosure
-        url="https://github.com/fimaljo/notchspace-releases/releases/download/v1.1.8/NotchSpace.dmg"
-        sparkle:version="18"
-        sparkle:shortVersionString="1.1.8"
-        sparkle:edSignature="pRVB/dKQ35mQbcuh3HWM7dsvajyMI2KfEQC3trZl1gTkJN/ImAclE7g2gSfqC0ccIGO3V6zNcHB9CHX8yiXQBw=="
-        length="19339987"
-        type="application/octet-stream"/>
-    </item>
-
   </channel>
 </rss>
